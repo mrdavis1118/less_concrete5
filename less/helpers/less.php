@@ -36,7 +36,7 @@ class LessHelper {
 
 		$fh=loader::helper('file');
 
-		Loader::library('3rdparty/lessc.inc', 'less');
+		Loader::library('3rdparty/lessphp/lessc.inc', 'less');
 		
 		$less = new LessOutputObject();
 
