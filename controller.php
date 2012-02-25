@@ -11,8 +11,8 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 class LessPackage extends Package {
 
      protected $pkgHandle = 'less';
-     protected $appVersionRequired = '5.3.0';
-     protected $pkgVersion = '1.0';
+     protected $appVersionRequired = '5.5.1';
+     protected $pkgVersion = '1.0.1';
 
      public function getPackageDescription() {
         return t("Allows support for compiling Less files into CSS.");
